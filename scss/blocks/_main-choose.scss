@@ -1,0 +1,128 @@
+.main__choose {
+    &__page {
+        background-color: $main-choose-bgc;
+        width: 1280px;
+        height: 600px;
+        text-align: center;
+
+        h2 {
+            font-family: $fontf-fraunces;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: $main-tcolor;
+            padding-top: 100px;
+        }
+
+        p {
+            width: 40%;
+            margin: auto;
+            padding-top: 32px;
+            font-family: $fontf-barlow;
+            color: $main-tcolor;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            letter-spacing: 0.1px;
+        }
+    }
+
+    .main__choose__list {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        justify-content: space-evenly;
+        position: relative;
+        top: -250px;
+
+        &__item {
+            border: 1px solid none;
+            background-color: $btn-bgcolor;
+            height: 382px;
+            text-align: center;
+            list-style: none;
+            border-radius: 8px;
+            padding: 72px 48px 48px 48px;
+
+            img {
+                width: 72px;
+                height: 72px;
+            }
+
+            h4 {
+                padding-top: 56px;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                font-family: $fontf-fraunces;
+                color: $main-tcolor;
+            }
+
+            p {
+                font-family: $fontf-barlow;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $main-tcolor;
+                padding-top: 24px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main__choose {
+        .container {
+            .main__choose__page {
+                width: 100%;
+
+                h2 {
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 48px;
+                    padding-top: 50px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    mix-blend-mode: normal;
+                    width: 85%;
+                }
+            }
+
+            .main__choose__list {
+                display: grid;
+                grid-template-columns: 573px;
+                row-gap: 24px;
+
+                &__item {
+                    height: 180px;
+                    display: flex;
+                    align-items: center;
+                    text-align: start;
+                    gap: 55px;
+
+                    img {
+                        width: 55px;
+                        height: 56px;
+                    }
+
+                    div {
+                        h4 {
+                            padding: 0;
+                        }
+
+                        p {
+                            padding-top: 16px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $main-tcolor;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

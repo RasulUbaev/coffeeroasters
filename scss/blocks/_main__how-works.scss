@@ -1,0 +1,115 @@
+.main__how__works {
+    &__box {
+        width: 1045px;
+        margin-left: 50px;
+
+        h4 {
+            font-family: $fontf-fraunces;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: $nav-tcolor;
+            padding-bottom: 80px;
+        }
+
+        &__line {
+            .line {
+                position: relative;
+                top: -11px;
+            }
+
+            .oval-one {
+                position: relative;
+                left: 5px;
+            }
+
+            .oval-two {
+                position: relative;
+                right: 380px;
+            }
+
+            .oval-three {
+                position: relative;
+                right: 35px;
+            }
+
+            padding-bottom: 67px;
+        }
+
+        &__list {
+            display: grid;
+            grid-template-columns: 285px 285px 285px;
+            gap: 95px;
+
+            .main__how__item {
+                list-style: none;
+
+                img {
+                    padding-bottom: 38px;
+                }
+
+                h3 {
+                    font-family: $fontf-fraunces;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    color: $main-t2color;
+                    width: 70%;
+                    padding-bottom: 42px;
+                }
+
+                p {
+                    font-family: $fontf-barlow;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $main-t2color;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main__how__works {
+        &__box {
+            margin: 0;
+
+            h4 {
+                width: 50%;
+                padding-bottom: 40px;
+            }
+
+            &__line {
+                padding-bottom: 48px;
+
+                .line {
+                    width: 75%;
+                }
+
+                width: 70%;
+            }
+
+            &__list {
+                display: grid;
+                grid-template-columns: 233px 243px 233px;
+                gap: 10px;
+
+                .main__how__item {
+                    h3 {
+                        font-weight: 900;
+                        font-size: 28px;
+                        line-height: 32px;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+
+    }
+}

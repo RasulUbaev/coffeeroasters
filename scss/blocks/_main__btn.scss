@@ -1,0 +1,32 @@
+.main__btn__box {
+    padding-top: 64px;
+    margin-left: 100px;
+    a {
+        button {
+            font-family: $fontf-fraunces;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            color: $main-tcolor;
+            padding: 15px 31px;
+            border: none;
+            background-color: $btn-bgcolor;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background-color: $btn-bghover;
+        }
+
+        button:active {
+            background-color: $btn-bgactive;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main__btn__box {
+        padding-top: 44px;
+        margin-left: 0;
+    }
+}

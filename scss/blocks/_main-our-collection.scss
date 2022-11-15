@@ -1,0 +1,93 @@
+.main__our__section {
+    padding: 150px 0 0 0;
+    text-align: center;
+
+    &__img {
+        background-image: url(..//../images/our_collection.png);
+        height: 196px;
+        width: 1111px;
+        background-repeat: no-repeat;
+        margin: auto;
+
+        .gradient {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, rgba(214, 211, 202, 0) -100%, #FEFCF7 70%);
+        }
+    }
+
+    .main__our__list {
+        display: flex;
+
+        &__item {
+            position: relative;
+            top: -140px;
+            list-style: none;
+
+            img {
+                width: 220px;
+                height: 193px;
+            }
+
+            h3 {
+                font-family: "Fraunces";
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                color: $main-t2color;
+                padding-top: 70px;
+            }
+
+            p {
+                font-family: "Barlow";
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $main-t2color;
+                width: 75%;
+                margin: auto;
+                padding-top: 24px;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .main__our__section {
+        padding: 0;
+
+        .container {
+            .main__our__section__img {
+                width: 90%;
+                background-size: contain;
+            }
+
+            .main__our__list {
+                display: flex;
+                flex-direction: column;
+
+                .main__our__list__item {
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    align-items: center;
+                    gap: 60px;
+
+                    div {
+                        text-align: start;
+
+                        h3,
+                        p {
+                            padding: 0;
+                            margin: 0;
+                            width: 90%;
+                            padding-bottom: 20px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
