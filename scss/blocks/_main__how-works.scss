@@ -125,47 +125,47 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .main__how__works {
-        &__box {
-            margin: 0;
+// @media only screen and (max-width: 768px) {
+//     .main__how__works {
+//         &__box {
+//             margin: 0;
 
-            h4 {
-                width: 50%;
-                padding-bottom: 40px;
-            }
+//             h4 {
+//                 width: 50%;
+//                 padding-bottom: 40px;
+//             }
 
-            &__line {
-                padding-bottom: 48px;
+//             &__line {
+//                 padding-bottom: 48px;
 
-                .line {
-                    width: 75%;
-                }
+//                 .line {
+//                     width: 75%;
+//                 }
 
-                width: 70%;
-            }
+//                 width: 70%;
+//             }
 
-            &__list {
-                display: grid;
-                grid-template-columns: 233px 243px 233px;
-                gap: 10px;
+//             &__list {
+//                 display: grid;
+//                 grid-template-columns: 233px 243px 233px;
+//                 gap: 10px;
 
-                .main__how__item {
-                    h3 {
-                        font-weight: 900;
-                        font-size: 28px;
-                        line-height: 32px;
-                    }
+//                 .main__how__item {
+//                     h3 {
+//                         font-weight: 900;
+//                         font-size: 28px;
+//                         line-height: 32px;
+//                     }
 
-                    p {
-                        font-weight: 400;
-                        font-size: 15px;
-                        line-height: 25px;
-                    }
-                }
-            }
-        }
+//                     p {
+//                         font-weight: 400;
+//                         font-size: 15px;
+//                         line-height: 25px;
+//                     }
+//                 }
+//             }
+//         }
 
-    }
-}
+//     }
+// }
 
