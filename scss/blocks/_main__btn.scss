@@ -25,13 +25,6 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .main__btn__box {
-        padding-top: 44px;
-        margin-left: 0;
-    }
-}
-
 @media only screen and (max-width: 327px) {
     .main__btn__box {
         .container {
@@ -42,3 +35,12 @@
 
     }
 }
+
+
+@media only screen and (max-width: 768px) {
+    .main__btn__box {
+        padding-top: 44px;
+        margin-left: 0;
+    }
+}
+

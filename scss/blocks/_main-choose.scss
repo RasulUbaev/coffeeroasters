@@ -68,65 +68,6 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .main__choose {
-        .container {
-            .main__choose__page {
-                width: 100%;
-
-                h2 {
-                    font-weight: 900;
-                    font-size: 32px;
-                    line-height: 48px;
-                    padding-top: 50px;
-                }
-
-                p {
-                    font-weight: 400;
-                    font-size: 15px;
-                    line-height: 25px;
-                    mix-blend-mode: normal;
-                    width: 85%;
-                }
-            }
-
-            .main__choose__list {
-                display: grid;
-                grid-template-columns: 573px;
-                row-gap: 24px;
-
-                &__item {
-                    height: 180px;
-                    display: flex;
-                    align-items: center;
-                    text-align: start;
-                    gap: 55px;
-
-                    img {
-                        width: 55px;
-                        height: 56px;
-                    }
-
-                    div {
-                        h4 {
-                            padding: 0;
-                        }
-
-                        p {
-                            padding-top: 16px;
-                            font-weight: 400;
-                            font-size: 15px;
-                            line-height: 25px;
-                            color: $main-tcolor;
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 @media only screen and (max-width: 327px) {
     .main__choose {
         .container {
@@ -187,3 +128,63 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .main__choose {
+        .container {
+            .main__choose__page {
+                width: 100%;
+
+                h2 {
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 48px;
+                    padding-top: 50px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    mix-blend-mode: normal;
+                    width: 85%;
+                }
+            }
+
+            .main__choose__list {
+                display: grid;
+                grid-template-columns: 573px;
+                row-gap: 24px;
+
+                &__item {
+                    height: 180px;
+                    display: flex;
+                    align-items: center;
+                    text-align: start;
+                    gap: 55px;
+
+                    img {
+                        width: 55px;
+                        height: 56px;
+                    }
+
+                    div {
+                        h4 {
+                            padding: 0;
+                        }
+
+                        p {
+                            padding-top: 16px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $main-tcolor;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
