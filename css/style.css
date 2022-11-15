@@ -542,6 +542,36 @@ template {
     line-height: 25px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main__our__section {
+    padding: 0;
+  }
+  .main__our__section .container .main__our__section__img {
+    width: 90%;
+    background-size: contain;
+  }
+  .main__our__section .container .main__our__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__our__section .container .main__our__list .main__our__list__item {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  .main__our__section .container .main__our__list .main__our__list__item div {
+    text-align: center;
+  }
+  .main__our__section .container .main__our__list .main__our__list__item div h3,
+.main__our__section .container .main__our__list .main__our__list__item div p {
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+}
 .main__choose__page {
   background-color: #282F38;
   width: 1280px;
@@ -773,6 +803,12 @@ template {
 @media only screen and (max-width: 327px) {
   .main__btn__box .container a {
     margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main__btn__box {
+    padding-top: 44px;
+    margin-left: 0;
   }
 }
 .footer {
