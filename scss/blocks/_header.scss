@@ -32,12 +32,18 @@
             a:hover {
                 color: #000;
             }
-
-            .burger {
-                img {
-                    display: none;
-                }
-            }
+        }
+        .burger {
+            background-image: url(..//../images/burger.png);
+            width: 20px;
+            height: 20px;
+            background-image: no-repeat;
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            display: none;
         }
     }
 
@@ -47,14 +53,6 @@
 @media only screen and (max-width: 768px) {
     .header {
         width: 100%;
-
-        nav {
-            .burger {
-                img {
-                    display: none;
-                }
-            }
-        }
     }
 }
 
@@ -79,10 +77,9 @@
             .nav__list {
                 display: none;
             }
+
             .burger {
-                img {
-                    display: block;
-                }
+                display: block;
             }
         }
     }
