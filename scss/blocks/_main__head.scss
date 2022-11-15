@@ -77,3 +77,37 @@
         }
    }
 }
+
+@media only screen and (max-width: 327px) {
+    .main__head__page {
+         width: 100%;
+         .head__page__box {
+            //  background-size:contain;
+             background-repeat: no-repeat;
+             background-size: 325px 500px;
+             height: 500px;
+             width: 325px;
+             .head__page__box__title {
+                text-align: center; 
+                 width: 100%;
+                 padding: 0;
+                 height: 292px;
+                 padding: 100px 24px 99px 24px; 
+                 h1 {
+                     font-weight: 900;
+                     font-size: 40px;
+                     line-height: 40px;
+                     padding-bottom: 24px;
+                 }
+                 p {
+                     font-weight: 400;
+                     font-size: 15px;
+                     line-height: 25px;
+                     padding: 0;
+                     width: 100%;
+                     padding-bottom: 30px;
+                 }
+             }
+         }
+    }
+ }

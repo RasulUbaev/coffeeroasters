@@ -1,6 +1,7 @@
 .main__btn__box {
     padding-top: 64px;
     margin-left: 100px;
+
     a {
         button {
             font-family: $fontf-fraunces;
@@ -28,5 +29,16 @@
     .main__btn__box {
         padding-top: 44px;
         margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 327px) {
+    .main__btn__box {
+        .container {
+            a {
+                margin-left: 50px;
+            }
+        }
+
     }
 }

@@ -126,3 +126,64 @@
         }
     }
 }
+
+@media only screen and (max-width: 327px) {
+    .main__choose {
+        .container {
+            .main__choose__page {
+                width: 100%;
+
+                h2 {
+                    font-weight: 900;
+                    font-size: 28px;
+                    line-height: 28px;
+                    padding-top: 50px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    mix-blend-mode: normal;
+                    width: 90%;
+                }
+            }
+
+            .main__choose__list {
+                display: grid;
+                grid-template-columns: 279px;
+                row-gap: 24px;
+
+                &__item {
+                    height: 382px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    padding: 72px 33px 51px 33px;
+                    gap: 55px;
+
+                    img {
+                        width: 71px;
+                        height: 72px;
+                    }
+
+                    div {
+                        h4 {
+                            padding: 0;
+                        }
+
+                        p {
+                            padding-top: 16px;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 25px;
+                            color: $main-tcolor;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

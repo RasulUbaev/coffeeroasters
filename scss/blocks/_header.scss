@@ -1,5 +1,6 @@
 .header {
     margin-top: 5px;
+
     .nav {
         display: flex;
         width: 100%;
@@ -7,16 +8,17 @@
         justify-content: space-between;
         align-items: center;
         font-family: 'Barlow', sans-serif;
-        
+
         &__logo {
             display: flex;
             gap: 8px;
         }
-    
+
         &__list {
             display: flex;
             gap: 32px;
             list-style-type: none;
+
             &__item a {
                 font-weight: 700;
                 font-size: 12px;
@@ -26,16 +28,62 @@
                 color: $nav-tcolor;
                 text-decoration: none;
             }
+
             a:hover {
                 color: #000;
             }
+
+            .burger {
+                img {
+                    display: none;
+                }
+            }
         }
     }
-    
+
+
 }
 
 @media only screen and (max-width: 768px) {
     .header {
         width: 100%;
+
+        nav {
+            .burger {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 327px) {
+    .header {
+        .nav {
+            &__logo {
+                gap: 0px;
+
+                &--title {
+                    img {
+                        width: 70%;
+                    }
+                }
+
+                &--icon {
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+            .nav__list {
+                display: none;
+            }
+            .burger {
+                img {
+                    display: block;
+                }
+            }
+        }
     }
 }
