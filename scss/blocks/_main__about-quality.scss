@@ -1,0 +1,37 @@
+.main__quality {
+    &__page {
+        background-color: #293039;
+        height: 474px;
+        display: flex;
+        justify-content: space-around;
+        &__title {
+            padding: 100px 0 0 0;
+            h2 {
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                font-family: $fontf-fraunces;
+                color: $main-tcolor;
+                width: 517px;
+                height: 48px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+                color: $main-tcolor;
+                width: 540px;
+                height: 130px;
+                padding-top: 32px;
+            }
+        }
+        &__img {
+            img {
+                position: relative;
+                top: -76px;
+            }
+        }
+    }
+}

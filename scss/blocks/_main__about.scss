@@ -1,0 +1,26 @@
+.main__about {
+    &__head {
+        background-image: url(..//../images/aboutus/image/Bitmap.png);
+        height: 450px;
+        &__title {
+            padding: 137px 0 137px 85px;
+            h2 {
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                font-family: $fontf-fraunces;
+                color: $main-tcolor;
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                font-family: $fontf-barlow;
+                color: $main-tcolor;
+                width: 38%;
+                padding-top: 24px;
+            }
+        }
+    }
+
+}

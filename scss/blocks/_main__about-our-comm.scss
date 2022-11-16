@@ -1,0 +1,37 @@
+.main__our__commitment {
+    padding: 168px 0;
+    &__page {
+        display: flex;
+        width: 85%;
+        margin: auto;
+        gap: 125px;
+        align-items: center;
+           .our__commitment__img {
+            img {
+                width: 445px;
+                height: 520px;
+            }
+           }
+
+           .our__commitment__title {
+                width: 55%;
+                h2 {
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: $main-t2color;
+                    font-family: $fontf-fraunces;
+                    padding-bottom: 32px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                    color: $main-t2color;
+                    font-family: $fontf-barlow;   
+                }
+           }
+    }
+}
