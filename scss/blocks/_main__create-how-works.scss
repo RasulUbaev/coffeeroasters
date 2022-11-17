@@ -1,0 +1,20 @@
+.main__create__how__works {
+    padding: 150px 0; 
+    &__box {
+        background-color: #293039;
+        padding: 100px 0 100px 85px;
+        .main__how__works__box__line {
+            
+        }
+        .main__how__works__box__list {
+            .main__how__item {
+                h3 {
+                    color: $main-tcolor;
+                }
+                p {
+                    color: $main-tcolor;
+                }
+            }
+        }
+    }
+}

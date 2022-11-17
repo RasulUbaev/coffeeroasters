@@ -1040,4 +1040,162 @@ img {
   line-height: 36px;
   color: #333D4B;
   padding-bottom: 24px;
+}
+
+.main__create__head {
+  background-image: url(..//../images/Creat-plan/images/Bitma.png);
+  height: 450px;
+}
+.main__create__head__title {
+  padding: 134px 0 0 86px;
+}
+.main__create__head__title h2 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  font-family: "Fraunces", serif;
+  color: #FEFCF7;
+}
+.main__create__head__title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  color: #FEFCF7;
+  font-family: "Barlow", sans-serif;
+  width: 445px;
+  padding-top: 32px;
+}
+
+.main__create__how__works {
+  padding: 150px 0;
+}
+.main__create__how__works__box {
+  background-color: #293039;
+  padding: 100px 0 100px 85px;
+}
+.main__create__how__works__box .main__how__works__box__list .main__how__item h3 {
+  color: #FEFCF7;
+}
+.main__create__how__works__box .main__how__works__box__list .main__how__item p {
+  color: #FEFCF7;
+}
+
+.main__create__drink__box {
+  display: flex;
+  padding: 0 85px;
+  gap: 100px;
+  justify-content: space-between;
+}
+.main__create__drink__box__lists {
+  width: 505px;
+}
+.main__create__drink__box__lists li {
+  border-bottom: 1px solid gray;
+  list-style: none;
+  padding: 24px 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Fraunces", serif;
+  color: #83888F;
+}
+.main__create__drink__box__lists li span {
+  padding-right: 28px;
+}
+.main__create__drink__box__lists li span:hover {
+  color: #66D2CF;
+}
+.main__create__drink__box__items h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  font-family: "Fraunces", serif;
+  padding-top: 20px;
+}
+.main__create__drink__box__items .drink__item {
+  display: flex;
+  padding-top: 86px;
+  gap: 23px;
+  padding-bottom: 88px;
+}
+.main__create__drink__box__items .drink__item .drink__box__item {
+  width: 228px;
+  height: 250px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px 84px 28px;
+}
+.main__create__drink__box__items .drink__item .drink__box__item h4 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  font-family: "Fraunces", serif;
+  padding-bottom: 24px;
+}
+.main__create__drink__box__items .drink__item .drink__box__item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83888F;
+  font-family: "Barlow", sans-serif;
+}
+.main__create__drink__box__items .drink__item .drink__box__item:hover {
+  background-color: #0E8784;
+}
+.main__create__drink__box__items .drink__item .drink__box__item:hover h4,
+.main__create__drink__box__items .drink__item .drink__box__item:hover p {
+  color: #FEFCF7;
+}
+.main__create__drink__box__items .drink__item .drink__box__item:active {
+  background-color: #FDD6BA;
+}
+.main__create__drink__box__items .drink__item .drink__box__item:active h4,
+.main__create__drink__box__items .drink__item .drink__box__item:active p {
+  color: #333D4B;
+}
+.main__create__drink__box__items .drink__item__order {
+  background-color: #293039;
+  width: 100%;
+  padding: 31px 64px;
+  border-radius: 10px;
+}
+.main__create__drink__box__items .drink__item__order .order__title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  color: #83888F;
+}
+.main__create__drink__box__items .drink__item__order .order__subtitle {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FEFCF7;
+}
+.main__create__drink__box__items .drink__item__order .order__subtitle b {
+  color: #0E8784;
+}
+.main__create__drink__box__items .drink__item__order__btn {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.main__create__drink__box__items .drink__item__order__btn a button {
+  padding: 15px 33px;
+  background-color: #0E8784;
+  border: none;
+  color: #FEFCF7;
+  border-radius: 6px;
+  right: 0;
+}
+.main__create__drink__box__items .drink__item__order__btn:hover button {
+  background-color: #66D2CF;
 }/*# sourceMappingURL=style.css.map */

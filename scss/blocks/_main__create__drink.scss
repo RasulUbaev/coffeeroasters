@@ -1,0 +1,129 @@
+.main__create__drink {
+    &__box {
+        display: flex;
+        padding: 0 85px;
+        gap: 100px;
+        justify-content: space-between; 
+        &__lists {
+            width: 505px;   
+            li {
+                border-bottom: 1px solid gray;
+                list-style: none;
+                padding: 24px 0;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 32px;
+                font-family: $fontf-fraunces;
+                color: $nav-tcolor;
+                span {
+                    padding-right: 28px;
+                }
+                span:hover {
+                    color: $btn-bghover;
+                }
+
+            }
+        }
+        &__items {
+            h2 {
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: $nav-tcolor;
+                font-family: $fontf-fraunces;
+                padding-top: 20px;
+            }
+            .drink__item {
+                display: flex;
+                padding-top: 86px;
+                gap: 23px;
+                padding-bottom: 88px;
+                .drink__box__item {
+                    width: 228px;
+                    height: 250px;
+                    background: #F4F1EB;
+                    border-radius: 8px;
+                    padding: 32px 28px 84px 28px;
+                    h4 {
+                        font-weight: 900;
+                        font-size: 24px;
+                        line-height: 32px;
+                        color: $nav-tcolor;
+                        font-family: $fontf-fraunces;
+                        padding-bottom: 24px;
+                    }
+                    
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: $nav-tcolor;
+                        font-family: $fontf-barlow;
+                    }
+                    
+                }
+                .drink__box__item:hover{
+                    background-color: $btn-bgcolor;
+                }
+                .drink__box__item:hover h4,
+                .drink__box__item:hover p {
+                    color: $main-tcolor;
+                }
+                .drink__box__item:active{
+                    background-color:$color-active;
+                }
+                .drink__box__item:active h4,
+                .drink__box__item:active p {
+                    color: $main-t2color;
+                }
+            }
+
+            .drink__item__order {
+                background-color: #293039;
+                width: 100%;
+                padding: 31px 64px;
+                border-radius: 10px;
+                .order__title {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    mix-blend-mode: normal;
+                    opacity: 0.5;
+                    text-transform: uppercase;
+                    padding-bottom: 8px;
+                    color: $nav-tcolor;
+                }
+                .order__subtitle {
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 40px;
+                    color: $main-tcolor;
+                    b {
+                        color: $btn-bgcolor;
+                    }
+                }
+               
+            }
+            .drink__item__order__btn {
+                width: 100%;
+                padding-top: 30px;
+                display: flex;
+                justify-content: flex-end;
+                a {
+                    button {
+                        padding: 15px 33px;
+                        background-color: $btn-bgcolor;
+                        border: none;
+                        color: $main-tcolor;
+                        border-radius: 6px;
+                        right: 0;
+                        }   
+                }
+            }
+            .drink__item__order__btn:hover button {
+                background-color: $btn-bghover;
+            }
+            
+        }
+    }
+}
