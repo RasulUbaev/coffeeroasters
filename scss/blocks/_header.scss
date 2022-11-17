@@ -33,6 +33,7 @@
                 color: #000;
             }
         }
+
         .burger {
             background-image: url(..//../images/burger.png);
             width: 20px;
@@ -46,43 +47,115 @@
             display: none;
         }
     }
-
-
 }
 
-@media only screen and (max-width: 327px) {
+@media only screen and (max-width: 992px) {
     .header {
-        .nav {
-            &__logo {
-                gap: 0px;
-
-                &--title {
-                    img {
-                        width: 70%;
-                    }
-                }
-
-                &--icon {
-                    img {
-                        width: 70%;
-                    }
-                }
-            }
-            .nav__list {
-                display: none;
-            }
-
-            .burger {
-                display: block;
-            }
+        .container {
+            max-width: 992px;
+            margin: 0 auto;
+            padding: 0 10px;
         }
     }
 }
 
 
-// @media only screen and (max-width: 768px) {
-//     .header {
-//         width: 100%;
-//     }
-// }
+@media only screen and (max-width: 768px) {
+    .header {
+        .container {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 0 20px;
 
+            .nav {
+                padding: 0 10px;
+
+                &__list {
+                    display: none;
+                }
+
+                .burger {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        .container {
+            max-width: 576px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            .nav {
+                padding: 0 10px;
+
+                &__list {
+                    display: none;
+                }
+
+                .burger {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        .container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            .nav {
+                padding: 0 10px;
+
+                &__list {
+                    display: none;
+                }
+
+                .burger {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header {
+        .container {
+            max-width: 375px;
+            margin: 0 auto;
+            padding: 0 10px;
+
+            .nav {
+                &__logo {
+
+                    &--icon,
+                    &--title {
+                        img {
+                            width: 80%;
+                        }
+                    }
+                }
+
+                padding: 0 20px;
+
+                &__list {
+                    display: none;
+                }
+
+                .burger {
+                    display: block;
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+}

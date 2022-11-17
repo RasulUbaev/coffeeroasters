@@ -392,21 +392,80 @@ img {
   display: none;
 }
 
-@media only screen and (max-width: 327px) {
-  .header .nav__logo {
-    gap: 0px;
+@media only screen and (max-width: 992px) {
+  .header .container {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
-  .header .nav__logo--title img {
-    width: 70%;
+}
+@media only screen and (max-width: 768px) {
+  .header .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
-  .header .nav__logo--icon img {
-    width: 70%;
+  .header .container .nav {
+    padding: 0 10px;
   }
-  .header .nav .nav__list {
+  .header .container .nav__list {
     display: none;
   }
-  .header .nav .burger {
+  .header .container .nav .burger {
     display: block;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .header .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header .container .nav {
+    padding: 0 10px;
+  }
+  .header .container .nav__list {
+    display: none;
+  }
+  .header .container .nav .burger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header .container .nav {
+    padding: 0 10px;
+  }
+  .header .container .nav__list {
+    display: none;
+  }
+  .header .container .nav .burger {
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .header .container .nav {
+    padding: 0 20px;
+  }
+  .header .container .nav__logo--icon img, .header .container .nav__logo--title img {
+    width: 80%;
+  }
+  .header .container .nav__list {
+    display: none;
+  }
+  .header .container .nav .burger {
+    display: block;
+    width: 17px;
+    height: 17px;
   }
 }
 .main__head__page .head__page__box {
@@ -454,36 +513,149 @@ img {
   background-color: #E2DEDB;
 }
 
-@media only screen and (max-width: 327px) {
-  .main__head__page {
-    width: 100%;
+@media only screen and (max-width: 992px) {
+  .main__head__page .container {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0 10px;
   }
-  .main__head__page .head__page__box {
+  .main__head__page .container .head__page__box {
+    height: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 325px 500px;
-    height: 500px;
-    width: 325px;
   }
-  .main__head__page .head__page__box .head__page__box__title {
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    height: 292px;
-    padding: 100px 24px 99px 24px;
+  .main__head__page .container .head__page__box__title {
+    width: 500px;
+    height: 367px;
+    padding: 50px 40px;
   }
-  .main__head__page .head__page__box .head__page__box__title h1 {
+  .main__head__page .container .head__page__box__title h1 {
     font-weight: 900;
-    font-size: 40px;
-    line-height: 40px;
-    padding-bottom: 24px;
+    font-size: 52px;
+    line-height: 42px;
+    padding-bottom: 22px;
   }
-  .main__head__page .head__page__box .head__page__box__title p {
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    padding: 0;
-    width: 100%;
-    padding-bottom: 30px;
+  .main__head__page .container .head__page__box__title p {
+    line-height: 18px;
+    width: 80%;
+    padding-bottom: 16px;
+  }
+  .main__head__page .container .head__page__box__title a button {
+    padding: 14px 28px;
+    background-color: #0E8784;
+    color: #FEFCF7;
+    font-family: Fraunces;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .main__head__page .container .head__page__box__title a button:hover {
+    background: #66D2CF;
+  }
+  .main__head__page .container .head__page__box__title a button:active {
+    background-color: #E2DEDB;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main__head__page .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .main__head__page .container .head__page__box {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main__head__page .container .head__page__box__title {
+    width: 420px;
+    height: 267px;
+    padding: 70px 30px;
+  }
+  .main__head__page .container .head__page__box__title h1 {
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 52px;
+    padding-bottom: 32px;
+  }
+  .main__head__page .container .head__page__box__title p {
+    line-height: 26px;
+    width: 95%;
+    padding-bottom: 36px;
+  }
+  .main__head__page .container .head__page__box__title a button {
+    padding: 15px 31px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main__head__page .container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .main__head__page .container .head__page__box {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main__head__page .container .head__page__box__title {
+    width: 420px;
+    height: 267px;
+    padding: 70px 30px;
+  }
+  .main__head__page .container .head__page__box__title h1 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 42px;
+    padding-bottom: 32px;
+  }
+  .main__head__page .container .head__page__box__title p {
+    line-height: 22px;
+    width: 90%;
+    padding-bottom: 36px;
+  }
+  .main__head__page .container .head__page__box__title a button {
+    padding: 14px 28px;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main__head__page .container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .main__head__page .container .head__page__box {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .main__head__page .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .main__head__page .container .head__page__box {
+    height: 400px;
+  }
+  .main__head__page .container .head__page__box__title {
+    width: 400px;
+    height: 267px;
+    padding: 30px 30px;
+  }
+  .main__head__page .container .head__page__box__title h1 {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 42px;
+    padding-bottom: 22px;
+  }
+  .main__head__page .container .head__page__box__title p {
+    line-height: 22px;
+    width: 80%;
+    padding-bottom: 26px;
   }
 }
 .main__our__section {
